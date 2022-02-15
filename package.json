@@ -1,5 +1,5 @@
 {
-  "name": "@toseef-ahmad/time-format-like-instagram",
+  "name": "time-format-like-instagram",
   "version": "1.0.0",
   "description": "Display duration between current time and provided time in form of message like instagram",
   "main": "index.js",
