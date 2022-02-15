@@ -1,0 +1,23 @@
+{
+  "name": "time-format-like-instagram",
+  "version": "1.0.0",
+  "description": "Display duration between current time and provided time in form of message like instagram",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "time-format",
+    "time-format-like-instagram",
+    "instagram-time-format",
+    "last-post-one-mint-ago"
+  ],
+  "author": "ToseefAhmad",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Toseef-Ahmad/time-format-like-instagram/tree/master"
+  },
+  "homepage": "https://github.com/Toseef-Ahmad/time-format-like-instagram/tree/master"
+}
