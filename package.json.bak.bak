@@ -12,8 +12,7 @@
     "time-format-like-instagram",
     "instagram-time-format",
     "last-post-one-mint-ago",
-	"instagram",
-	"instagram-date-and-time"
+	"instagram"
   ],
   "author": "ToseefAhmad",
   "license": "MIT",
