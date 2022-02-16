@@ -1,6 +1,6 @@
 {
   "name": "time-format-like-instagram",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Display duration between current time and provided time in form of message like instagram",
   "main": "index.js",
   "type": "module",
@@ -11,7 +11,9 @@
     "time-format",
     "time-format-like-instagram",
     "instagram-time-format",
-    "last-post-one-mint-ago"
+    "last-post-one-mint-ago",
+	"instagram",
+	"instagram-date-and-time"
   ],
   "author": "ToseefAhmad",
   "license": "MIT",
