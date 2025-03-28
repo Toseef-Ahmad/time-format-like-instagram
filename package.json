@@ -1,25 +1,58 @@
 {
-  "name": "time-format-like-instagram",
-  "version": "1.0.1",
-  "description": "Display duration between current time and provided time in form of message like instagram",
-  "main": "index.js",
+  "name": "@toseefahmad/time-utils",
+  "version": "2.0.0",
+  "description": "Advanced time formatting utility inspired by social media post timestamps",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "type": "module",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build",
+    "lint": "eslint . --ext .ts",
+    "prepack": "npm run build"
   },
   "keywords": [
     "time-format",
-    "time-format-like-instagram",
+    "time-ago",
+    "social-media-time",
     "instagram-time-format",
-    "last-post-one-mint-ago",
-	"instagram",
-	"instagram-date-and-time"
+    "human-readable-time",
+    "date-formatting",
+    "typescript",
+    "time-utility"
   ],
-  "author": "ToseefAhmad",
+  "author": {
+    "name": "Toseef Ahmad",
+    "email": "your-email@example.com",
+    "url": "https://github.com/Toseef-Ahmad"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Toseef-Ahmad/time-format-like-instagram"
   },
-  "homepage": "https://github.com/Toseef-Ahmad/time-format-like-instagram"
+  "homepage": "https://github.com/Toseef-Ahmad/time-format-like-instagram",
+  "bugs": {
+    "url": "https://github.com/Toseef-Ahmad/time-format-like-instagram/issues"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@types/jest": "^27.5.0",
+    "typescript": "^4.6.4",
+    "jest": "^28.1.0",
+    "eslint": "^8.15.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "@typescript-eslint/eslint-plugin": "^5.25.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
