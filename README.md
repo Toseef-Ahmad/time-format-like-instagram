@@ -12,8 +12,7 @@ last post 1 day ago.
 posted now.
 ```
 
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
-
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSE)
 
 # 🕰️ TimeUtils: Powerful Date Formatting & Manipulation
 
